@@ -1,0 +1,47 @@
+package org.example;
+
+abstract class ProdutoAbstrato implements Produto{
+
+    private String nome;
+    private double preco;
+    private int quantidade;
+
+    public ProdutoAbstrato(String nome, double preco, int quantidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
+    public ProdutoAbstrato() {}
+
+    @Override
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    @Override
+    public double getPreco() {
+        return preco;
+    }
+
+    @Override
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    @Override
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    @Override
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+}
