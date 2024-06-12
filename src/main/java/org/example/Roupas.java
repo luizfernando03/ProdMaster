@@ -1,6 +1,6 @@
 package org.example;
 
-public class Roupas extends ProdutoAbstrato {
+public class Roupas extends ProdutoBase {
 
     private String tamanho;
     private String cor;

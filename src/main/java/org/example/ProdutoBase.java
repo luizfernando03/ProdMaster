@@ -1,18 +1,18 @@
 package org.example;
 
-abstract class ProdutoAbstrato implements Produto{
+abstract class ProdutoBase implements Produto{
 
     private String nome;
     private double preco;
     private int quantidade;
 
-    public ProdutoAbstrato(String nome, double preco, int quantidade) {
+    public ProdutoBase(String nome, double preco, int quantidade) {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
     }
 
-    public ProdutoAbstrato() {}
+    public ProdutoBase() {}
 
     @Override
     public String getNome() {
