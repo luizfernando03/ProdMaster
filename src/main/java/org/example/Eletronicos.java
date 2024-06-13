@@ -1,6 +1,6 @@
 package org.example;
 
-public abstract class Eletronicos extends ProdutoBase {
+public class Eletronicos extends ProdutoBase {
     private int garantiaMeses;
 
     public Eletronicos(String nome, double preco, int garantiaMeses, int quantidade) {
