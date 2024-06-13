@@ -33,7 +33,7 @@ public class Main {
                     int garantiaE = scanner.nextInt();
                     System.out.print("Quantidade: ");
                     int quantidadeE = scanner.nextInt();
-                    scanner.nextLine(); 
+                    scanner.nextLine();
                     carrinho.adicionarItem(new Eletronicos(nomeE, precoE, garantiaE, quantidadeE));
                     break;
                 case 2:

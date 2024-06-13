@@ -8,8 +8,8 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-class CarrinhoDeCompras {
-    private List<Produto> itens;
+public class CarrinhoDeCompras {
+    public List<Produto> itens;
 
     public CarrinhoDeCompras() {
         this.itens = new ArrayList<>();
