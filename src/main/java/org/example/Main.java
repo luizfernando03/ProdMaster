@@ -33,7 +33,7 @@ public class Main {
                     int garantiaE = scanner.nextInt();
                     System.out.print("Quantidade: ");
                     int quantidadeE = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a nova linha
+                    scanner.nextLine(); 
                     carrinho.adicionarItem(new Eletronicos(nomeE, precoE, garantiaE, quantidadeE));
                     break;
                 case 2:
@@ -42,7 +42,7 @@ public class Main {
                     String nomeR = scanner.nextLine();
                     System.out.print("Preço: ");
                     double precoR = scanner.nextDouble();
-                    scanner.nextLine(); // Consumir a nova linha
+                    scanner.nextLine();
                     System.out.print("Tamanho: ");
                     String tamanhoR = scanner.nextLine();
                     System.out.print("Cor: ");
